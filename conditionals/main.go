@@ -23,4 +23,7 @@ func main(){
 
     //run the imported pack file
     mappings.PrintMails()
+
+    //get the integer range ids
+    mappings.Rangeloop()
 }

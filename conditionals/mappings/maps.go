@@ -29,3 +29,18 @@ func PrintMails(){
     fmt.Println(names)
     fmt.Println(len(names))
 }
+
+//looping through ranges
+func Rangeloop(){
+    //define an array of integers
+
+    fmt.Println("################################## \n")
+
+    ids := []int{12,34,56,67,78,89}
+
+    //loop through the ids
+    for i, id := range ids{
+        //print the index and the id of the values in the integer array.
+        fmt.Printf("%d - ID: %d\n", i, id)
+    }
+}
