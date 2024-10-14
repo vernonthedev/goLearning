@@ -30,6 +30,9 @@ func main(){
 
     fmt.Println("##############SPACE##############")
     fmt.Println(secondPerson.greet())
+    secondPerson.hasBirthday()
+
+    fmt.Println(secondPerson.greet())
 }
 
 // Greeting method - value receiver
@@ -38,4 +41,11 @@ func (person Person) greet() string {
         person.firstName + " "+ 
         person.lastName + " and I am " +    
         strconv.Itoa(person.age)
+}
+
+
+//hasBirthday method - pointer receiver
+func (person *Person) hasBirthday(){
+    //changing the person's age value in the original struct
+    person.age++
 }
