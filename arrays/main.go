@@ -14,6 +14,16 @@ func main(){
 
     fmt.Println(fruits)
     fmt.Println(fruits[2])
+    
 
+    //declaring and assigning an array at once.
+    sauces := [4]string{"Beans", "Gnuts","Meat","Greens"}
+    fmt.Println(sauces)
+    fmt.Println(sauces[1])
+
+    //a sliced array is an array that is dynamic in terms of number of items
+    slicedArray := []string{"BMW","Audi","RangeRover"}
+    fmt.Println(len(slicedArray))
+    fmt.Println(slicedArray)
 
 }
