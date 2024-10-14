@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "github.com/vernonthedev/goLearning/conditionals/mappings"
+)
 
 func main(){
    // name := "vernon"
@@ -17,4 +20,7 @@ func main(){
     for i:=1; i <=10; i++ {
         fmt.Printf("Number: %d\n",i)
     }
+
+    //run the imported pack file
+    mappings.PrintMails()
 }
