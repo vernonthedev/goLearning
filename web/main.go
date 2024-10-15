@@ -19,5 +19,6 @@ func main(){
     http.HandleFunc("/", index)
     http.HandleFunc("/about", about)
     fmt.Println("[+] Server Starting...")
+    fmt.Println("[+] Now Serving at Port: 3000...")
     http.ListenAndServe(":3000", nil)
 }
