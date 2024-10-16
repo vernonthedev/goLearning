@@ -13,7 +13,7 @@ type Person struct{
     city string
     gender string
     age int
-}
+ }
 
 
 func main(){
